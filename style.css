@@ -1,0 +1,157 @@
+.warning{
+    background-color :rgb(253, 204, 189) ;}
+
+.bdrs-10{
+    border-radius:10px;}
+
+
+
+    .my-6{
+        margin-top: 200px;
+        margin-bottom:200px;
+    }
+
+    html{
+        cursor:none;
+    }
+    
+    .cursor{
+        position: fixed;
+        width: 10px;
+        height: 10px;
+        background: rgb(230, 56, 56);
+        border-radius: 50%;
+        margin-left: -25px;
+        margin-top: -25px;
+        animation: color 3s infinite;
+    }
+    
+    
+    .box{
+        position: absolute;
+        width:100vh;
+        left:125px;
+        top: 50;
+       
+        
+        font-family:impact;
+        padding:10px 0;
+        overflow: hidden;
+        transform:rotate(90deg);
+        transform-origin: 0 0;  
+    }
+    
+    .text{
+        white-space:nowrap;
+        animation:run 50s linear infinite;
+    }
+    
+    @keyframes run{
+        from{
+            transform: translateX(0);
+    
+        }
+        to{
+            transform: translateX(-1600px);
+        }
+    }
+
+    .image{
+        position: fixed;
+        top: 137px;
+        bottom: 0;
+        left: 753px;
+        right: 0;
+        display: flex;
+        justify-content:center;
+        align-items:center;
+        animation: mymove 20s infinite;
+    }
+    @keyframes mymove {
+        0% {transform: rotate(-360deg)};
+        100% {transform: rotate(-360deg);}
+      }
+
+
+    .image2{
+        position: fixed;
+        top: 170px;
+        bottom: 0;
+        left: 530px;
+        right: 0;
+        display: flex;
+        justify-content:center;
+        align-items:center;
+        
+    }
+
+
+
+ .row{
+    margin:70px;
+    padding-top: 50px;
+ 
+ }
+
+
+ .label{
+    position: absolute;
+    width:100vh;
+    left:80px;
+    top: 140px;
+   
+ }
+.list-group{
+ color: rgb(119, 53, 15);
+position: absolute;
+left: 180px;
+top: 280px;
+width: 400px;
+}
+
+.logo{
+    
+position: absolute;
+left: 180px;
+top: 190px;
+width: 400px; 
+}
+.news
+{
+    position: absolute;
+left:380px;
+top: 238px;
+width: 400px; 
+    font-size: larger;
+
+    color: rgb(119, 53, 15);
+}
+
+ .bg-brown {
+    background:white;
+}
+ 
+     
+.nav-link{
+   color:rgb(119, 53, 15);
+}
+
+.nav-link:hover{
+   color:rgb(234, 124, 0);
+}
+
+   body{
+       background-image: url(bg-11.jpg) ;
+       background-color: rgb(255, 247, 223);
+       color: rgb(119, 53, 15);
+       font-size: small;
+       font-family: 'Kosugi Maru', sans-serif;
+       letter-spacing:3px;
+       border-color:rgb(119, 53, 15);
+   }
+    
+   a{
+    color:rgb(119, 53, 15);
+    font-size:small;
+    
+}
